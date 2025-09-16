@@ -39,7 +39,7 @@ The goal is to practice concepts such as:
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/PratapShishodia/E-Commerce.git
    cd ecommerce-microservices
 
 Will add Other Steps in Future
