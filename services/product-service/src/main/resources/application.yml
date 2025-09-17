@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/productDB
+    password: '2122'
+  jpa:
+    format-sql: 'true'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+  application:
+    name: Product-service
+server:
+  port: '8080'
+#jwt:
+#  secret: xO7Xf/jfp2av8G/8zFeN1VRldQj0kP9zYIfmnP+AV6uG2B7ZaQg49B1DJ6rU7K+4p9Xj8oWGRhYW1Gz6r4+zvA==
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#  endpoint:
+#    health:
+#      show-details: always
+
